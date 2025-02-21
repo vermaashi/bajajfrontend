@@ -9,7 +9,7 @@ const App = () => {
   const [error, setError] = useState("");
   const [selectedFilters, setSelectedFilters] = useState([]);
 
-  const backendUrl = "http://localhost:5000/bfhl"; // Ensure correct backend URL
+  const backendUrl = "https://bajaj-3vpz.onrender.com/bfhl"; // Ensure correct backend URL
 
   const handleSubmit = async () => {
     setError("");
